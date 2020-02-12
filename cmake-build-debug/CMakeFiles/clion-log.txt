@@ -1,0 +1,4 @@
+"/Volumes/Storage/cache/vdelsie/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.4865.10/CLion 2020.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/vdelsie/Desktop/LALA
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/vdelsie/Desktop/LALA/cmake-build-debug
