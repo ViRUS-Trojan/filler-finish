@@ -17,7 +17,7 @@ void	*ft_memalloc(size_t size)
 	char	*mem;
 
 	if (!(mem = malloc(size)))
-		ft_exit("молочная ошибка!", 1);
+		ft_exit("молочная ошибка!", 1);///////читинг нахуй
 //	while (size--)
 //		mem[size] = 0;
 ft_bzero(mem, size);

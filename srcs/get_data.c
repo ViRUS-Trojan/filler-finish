@@ -6,11 +6,26 @@
 /*   By: vdelsie <vdelsie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/07 17:22:23 by vdelsie           #+#    #+#             */
-/*   Updated: 2020/02/13 13:12:52 by vdelsie          ###   ########.fr       */
+/*   Updated: 2020/02/14 20:01:57 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "filler.h"
+
+void			free_strsplit(char **split)
+{
+	int i;
+
+	i = -1;
+	if (!split)
+		return ;
+	while (split[++i])
+	{
+		free(split[i]);
+		split[i] = NULL;
+	}
+	free(split);
+}
 
 static int         check_huevaya_karta(char *line, t_game *game)
 {
@@ -26,20 +41,28 @@ static int         check_huevaya_karta(char *line, t_game *game)
     if (!split)
         return (-1);
     if (!split[1])
-        return  (-1);
-    if (ft_strlen(split[1] != game->w_map))
-        return(-1);
+	{
+		free_strsplit(split);
+		return (-1);
+	}
+    if ((int)ft_strlen(split[1]) != game->w_map)
+	{
+    	free_strsplit(split);
+		return(-1);
+	}
 	len = ft_strlen(split[1]);
-    while (i < len - 1)
+    while (i < len)
     {
         if (split[1][i] == '.' || split[1][i] == 'X' || split[1][i] == 'x' || split[1][i] == 'O' || split[1][i] == 'o')
             i++;
         else
-            return (-1);
+		{
+        	free_strsplit(split);
+			return (-1);
+		}
     }
-    if (split[1][i] == '\n')
-        return (0);            ////////////это значит что все заебись!
-    return (-1);
+	free_strsplit(split);
+    return (0);
 }
 
 
@@ -63,7 +86,11 @@ static int	ft_fill_map(t_game *game)
 		if (get_next_line(0, &line) == -1 || !line)
 			return (-1);
 		if (check_huevaya_karta(line, game) == -1)
-		    return (-1);
+		{
+			ft_strdel(&line);
+			return (-1);
+		}
+
 		ft_strcat(game->gross_map, ft_strchr(line, ' ') + 1);
 		ft_strcat(game->gross_map, "\n");
 		ft_strdel(&line);
@@ -107,6 +134,7 @@ static int	ft_get_piece(t_game *game)
 
 	game->piece = ft_memalloc(sizeof(*game->piece) *
 				(game->h_piece * game->w_piece + game->h_piece + 1));
+	//////защитить маллок
 	i = 0;
 	while (i < game->h_piece)
 	{

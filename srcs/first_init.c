@@ -77,7 +77,8 @@ static void	ft_first_init_strat_map(t_game *game)
 t_game		*ft_first_init(void)
 {
     t_game	*game;
-	game = ft_memalloc(sizeof(t_game));
+	if (!(game = ft_memalloc(sizeof(t_game))))
+		return (NULL);
 	//ft_bzero(game, sizeof(game));
 	if (ft_get_coin(game) == -1)
 		return (NULL);

@@ -46,7 +46,7 @@ endif
 NAME = vdelsie.filler
 NAME_VIZ = filler.vizual
 
-CC = gcc -Wall -Wextra -Werror -O2 -funroll-loops
+CC = gcc -Wall -Wextra -Werror -O2 -funroll-loops -g
 #CC = gcc -Wall -Wextra -Werror -g -fsanitize=address
 
 C_DIR = srcs

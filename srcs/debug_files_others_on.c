@@ -53,16 +53,16 @@ void	ft_init_debug(t_game *game)
 	if (fd < 0)
 		return ;
 	ft_putstr_fd("my_coin : ", fd);
-	ft_putchar_fd(game.my_coin, fd);
+	ft_putchar_fd(game->my_coin, fd);
 	ft_putendl_fd("", fd);
 	ft_putstr_fd("opp_coin : ", fd);
-	ft_putchar_fd(game.opp_coin, fd);
+	ft_putchar_fd(game->opp_coin, fd);
 	ft_putendl_fd("", fd);
 	ft_putstr_fd("h_map : ", fd);
-	ft_putnbr_fd(game.h_map, fd);
+	ft_putnbr_fd(game->h_map, fd);
 	ft_putendl_fd("", fd);
 	ft_putstr_fd("w_map : ", fd);
-	ft_putnbr_fd(game.w_map, fd);
+	ft_putnbr_fd(game->w_map, fd);
 	ft_putendl_fd("", fd);
 	close(fd);
 }
