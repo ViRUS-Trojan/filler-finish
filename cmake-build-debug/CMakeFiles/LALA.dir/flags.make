@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/vdelsie/Desktop/LALA/. -I/Users/vdelsie/Desktop/LALA/includes -I/Users/vdelsie/Desktop/LALA/libft -I/Users/vdelsie/Desktop/LALA/libft/includes -I/Users/vdelsie/Desktop/LALA/libft/srcs -I/Users/vdelsie/Desktop/LALA/srcs 
+C_INCLUDES = -I/Users/vdelsie/Desktop/YRA/. -I/Users/vdelsie/Desktop/YRA/includes -I/Users/vdelsie/Desktop/YRA/libft -I/Users/vdelsie/Desktop/YRA/libft/includes -I/Users/vdelsie/Desktop/YRA/libft/srcs -I/Users/vdelsie/Desktop/YRA/srcs 
 

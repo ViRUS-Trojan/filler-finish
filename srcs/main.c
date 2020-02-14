@@ -6,7 +6,7 @@
 /*   By: vdelsie <vdelsie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/07 17:53:05 by vdelsie           #+#    #+#             */
-/*   Updated: 2020/02/12 12:56:43 by vdelsie          ###   ########.fr       */
+/*   Updated: 2020/02/14 18:11:45 by vdelsie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,15 @@
 
 int		main(void)
 {
-	t_game	game;
+	t_game	*game;
 	int		round;
 
-	if (ft_first_init(&game) == -1)
-		ft_exit("Ошибка чтения!", 2);
+	game = ft_first_init();
+	if (!game)
+		ft_exit("НЕ ЛЕЗЬ ДЕБИЛ!", 3);
+
+	/*if (ft_first_init(&game) == -1)
+		ft_exit("НЕ ЛЕЗЬ ДЕБИЛ!", 3);*/
 	round = 1;
 	while (1)
 	{
@@ -31,6 +35,6 @@ int		main(void)
 		ft_clear_all(&game);
 		round++;
 	}
-	ft_delete_all(&game);
+	ft_delete_all(game);
 	return (0);
 }

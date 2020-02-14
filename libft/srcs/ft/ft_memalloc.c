@@ -16,9 +16,10 @@ void	*ft_memalloc(size_t size)
 {
 	char	*mem;
 
-	if (!(mem = (char *)malloc(sizeof(*mem) * size)))
+	if (!(mem = malloc(size)))
 		ft_exit("молочная ошибка!", 1);
-	while (size--)
-		mem[size] = 0;
+//	while (size--)
+//		mem[size] = 0;
+ft_bzero(mem, size);
 	return ((void *)mem);
 }

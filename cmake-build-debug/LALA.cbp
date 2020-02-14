@@ -8,49 +8,48 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/vdelsie/Desktop/LALA/cmake-build-debug"/>
+				<Option working_dir="/Users/vdelsie/Desktop/YRA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/vdelsie/Desktop/LALA/cmake-build-debug"/>
+				<Option working_dir="/Users/vdelsie/Desktop/YRA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/vdelsie/Desktop/LALA/cmake-build-debug"/>
+				<Option working_dir="/Users/vdelsie/Desktop/YRA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LALA">
-				<Option output="/Users/vdelsie/Desktop/LALA/cmake-build-debug/LALA" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/vdelsie/Desktop/LALA/cmake-build-debug"/>
+				<Option output="/Users/vdelsie/Desktop/YRA/cmake-build-debug/LALA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vdelsie/Desktop/YRA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/vdelsie/Desktop/LALA/."/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/includes"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/libft"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/libft/includes"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/libft/srcs"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/srcs"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/."/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/includes"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/libft"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/libft/includes"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/libft/srcs"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/srcs"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -59,26 +58,25 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 LALA"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 LALA"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LALA/fast">
-				<Option output="/Users/vdelsie/Desktop/LALA/cmake-build-debug/LALA" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/vdelsie/Desktop/LALA/cmake-build-debug"/>
+				<Option output="/Users/vdelsie/Desktop/YRA/cmake-build-debug/LALA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vdelsie/Desktop/YRA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/vdelsie/Desktop/LALA/."/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/includes"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/libft"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/libft/includes"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/libft/srcs"/>
-					<Add directory="/Users/vdelsie/Desktop/LALA/srcs"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/."/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/includes"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/libft"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/libft/includes"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/libft/srcs"/>
+					<Add directory="/Users/vdelsie/Desktop/YRA/srcs"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -87,407 +85,407 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 LALA/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/LALA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 LALA/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vdelsie/Desktop/YRA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/includes/filler.h">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/includes/filler.h">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/includes/filler_vizual.h">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/includes/filler_vizual.h">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/includes/ft_printf.h">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/includes/ft_printf.h">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/includes/get_next_line.h">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/includes/get_next_line.h">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/includes/libft.h">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/includes/libft.h">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_atoi.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_atoi.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_bzero.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_bzero.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_convbase.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_convbase.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_countwords.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_countwords.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_exit.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_exit.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_intlen.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_intlen.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_intlen_base.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_intlen_base.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_isalnum.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_isalnum.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_isalpha.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_isalpha.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_isascii.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_isascii.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_isdigit.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_isdigit.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_isprint.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_isprint.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_itoa.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_itoa.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_itoa_base.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_itoa_base.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lower.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lower.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstadd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstadd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstadd_back.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstadd_back.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstat.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstat.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstdel.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstdel.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstdelone.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstdelone.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstiter.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstiter.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstlast.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstlast.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstlen.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstlen.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstmap.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstmap.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_lstnew.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_lstnew.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memalloc.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memalloc.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memccpy.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memccpy.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memchr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memchr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memcmp.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memcmp.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memcpy.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memcpy.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memdel.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memdel.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memjoin.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memjoin.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memmove.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memmove.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_memset.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_memset.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putchar.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putchar.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putchar_fd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putchar_fd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putendl.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putendl.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putendl2_fd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putendl2_fd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putendl3_fd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putendl3_fd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putendl_col.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putendl_col.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putendl_fd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putendl_fd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putinttab.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putinttab.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putnbr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putnbr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putnbr2.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putnbr2.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putnbr_col.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putnbr_col.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putnbr_endl.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putnbr_endl.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putnbr_fd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putnbr_fd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putstr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putstr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putstr_col.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putstr_col.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_putstr_fd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_putstr_fd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_puttab.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_puttab.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_sorttab_ascii.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_sorttab_ascii.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strcat.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strcat.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strchr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strchr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strclr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strclr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strcmp.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strcmp.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strcpy.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strcpy.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strdel.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strdel.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strdeldup.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strdeldup.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strdup.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strdup.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strequ.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strequ.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_striter.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_striter.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_striteri.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_striteri.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strjoin.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strjoin.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strjoin3.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strjoin3.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strlcat.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strlcat.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strlen.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strlen.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strlower.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strlower.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strmap.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strmap.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strmapi.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strmapi.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strncat.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strncat.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strncmp.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strncmp.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strncpy.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strncpy.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strnequ.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strnequ.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strnew.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strnew.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strnstr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strnstr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strrchr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strrchr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strsplit.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strsplit.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strstr.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strstr.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strsub.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strsub.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strtrim.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strtrim.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_strupper.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_strupper.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_tabdel.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_tabdel.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_tabdup.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_tabdup.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_tablen.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_tablen.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_tolower.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_tolower.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_toupper.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_toupper.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft/ft_ullintlen.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft/ft_ullintlen.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/arg_lst_func.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/arg_lst_func.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_b.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_b.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_bigc.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_bigc.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_bigs.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_bigs.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_c.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_c.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_d_i_bigd.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_d_i_bigd.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_o_bigo.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_o_bigo.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_p.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_p.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_percent.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_percent.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_s.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_s.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_u_bigu.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_u_bigu.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/conv_x_bigx.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/conv_x_bigx.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/display.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/display.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/ft_printf.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/ft_printf.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/numeric_to_str.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/numeric_to_str.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/padding.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/padding.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/parsing.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/parsing.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/parsing_tools.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/parsing_tools.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/precision.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/precision.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/ft_printf/sign_flags.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/ft_printf/sign_flags.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/libft/srcs/gnl/get_next_line.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/libft/srcs/gnl/get_next_line.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/border_calc.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/border_calc.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/border_check.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/border_check.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/border_clear.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/border_clear.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/debug_files_off.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/debug_files_off.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/delete_and_clear.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/delete_and_clear.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/first_init.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/first_init.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/get_data.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/get_data.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/heat_calc_main.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/heat_calc_main.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/heat_calc_sub_fct.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/heat_calc_sub_fct.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/main.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/main.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/put_piece.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/put_piece.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/strat_adjustment.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/strat_adjustment.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/strat_calc.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/strat_calc.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/tools_basics.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/tools_basics.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/tools_player.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/tools_player.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/tools_read.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/tools_read.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/srcs/tools_strat.c">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/srcs/tools_strat.c">
 			<Option target="LALA"/>
 		</Unit>
-		<Unit filename="/Users/vdelsie/Desktop/LALA/CMakeLists.txt">
+		<Unit filename="/Users/vdelsie/Desktop/YRA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

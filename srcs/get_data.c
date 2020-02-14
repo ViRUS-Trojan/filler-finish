@@ -6,11 +6,42 @@
 /*   By: vdelsie <vdelsie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/07 17:22:23 by vdelsie           #+#    #+#             */
-/*   Updated: 2020/02/07 17:22:24 by vdelsie          ###   ########.fr       */
+/*   Updated: 2020/02/13 13:12:52 by vdelsie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "filler.h"
+
+static int         check_huevaya_karta(char *line, t_game *game)
+{
+    char **split;
+    int i = 0;
+    int len;
+
+    if (!line)
+        return (-1);
+    if (ft_strequ(line, ""))
+        return (-1);
+    split = ft_strsplit(line, ' ');
+    if (!split)
+        return (-1);
+    if (!split[1])
+        return  (-1);
+    if (ft_strlen(split[1] != game->w_map))
+        return(-1);
+	len = ft_strlen(split[1]);
+    while (i < len - 1)
+    {
+        if (split[1][i] == '.' || split[1][i] == 'X' || split[1][i] == 'x' || split[1][i] == 'O' || split[1][i] == 'o')
+            i++;
+        else
+            return (-1);
+    }
+    if (split[1][i] == '\n')
+        return (0);            ////////////это значит что все заебись!
+    return (-1);
+}
+
 
 static int	ft_fill_map(t_game *game)
 {
@@ -31,6 +62,8 @@ static int	ft_fill_map(t_game *game)
 	{
 		if (get_next_line(0, &line) == -1 || !line)
 			return (-1);
+		if (check_huevaya_karta(line, game) == -1)
+		    return (-1);
 		ft_strcat(game->gross_map, ft_strchr(line, ' ') + 1);
 		ft_strcat(game->gross_map, "\n");
 		ft_strdel(&line);

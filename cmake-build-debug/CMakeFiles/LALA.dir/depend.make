@@ -281,6 +281,9 @@ CMakeFiles/LALA.dir/libft/srcs/ft/ft_strcmp.c.o: ../libft/includes/get_next_line
 CMakeFiles/LALA.dir/libft/srcs/ft/ft_strcmp.c.o: ../libft/includes/libft.h
 CMakeFiles/LALA.dir/libft/srcs/ft/ft_strcmp.c.o: ../libft/srcs/ft/ft_strcmp.c
 
+CMakeFiles/LALA.dir/libft/srcs/ft/ft_strcpy.c.o: ../libft/includes/ft_printf.h
+CMakeFiles/LALA.dir/libft/srcs/ft/ft_strcpy.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/LALA.dir/libft/srcs/ft/ft_strcpy.c.o: ../libft/includes/libft.h
 CMakeFiles/LALA.dir/libft/srcs/ft/ft_strcpy.c.o: ../libft/srcs/ft/ft_strcpy.c
 
 CMakeFiles/LALA.dir/libft/srcs/ft/ft_strdel.c.o: ../libft/includes/ft_printf.h

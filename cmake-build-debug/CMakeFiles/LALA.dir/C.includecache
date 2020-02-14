@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../includes/filler.h
+libft.h
+../includes/libft.h
+fcntl.h
+-
+
 ../libft/includes/ft_printf.h
 libft.h
 ../libft/includes/libft.h
@@ -38,7 +44,7 @@ get_next_line.h
 ft_printf.h
 ../libft/includes/ft_printf.h
 
-/Users/vdelsie/Desktop/LALA/libft/srcs/gnl/get_next_line.c
-get_next_line.h
-/Users/vdelsie/Desktop/LALA/libft/srcs/gnl/get_next_line.h
+/Users/vdelsie/Desktop/YRA/srcs/main.c
+filler.h
+/Users/vdelsie/Desktop/YRA/srcs/filler.h
 

@@ -77,7 +77,7 @@ int				init_start_middle_end(char *line, char **start, char **middle,
 /*
 ** Init
 */
-int				ft_first_init(t_game *game);
+t_game				*ft_first_init();
 int				ft_get_data(t_game *game);
 
 /*
@@ -117,7 +117,7 @@ void			ft_delete_all(t_game *game);
 /*
 ** Debug
 */
-void			ft_init_debug(t_game game);
+void			ft_init_debug(t_game *game);
 void			ft_put_stratmap(t_game game, int round);
 void			ft_put_place_score(int score, int i, int j);
 void			ft_put_best_place(int i, int j);

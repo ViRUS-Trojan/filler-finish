@@ -31,7 +31,7 @@ void	ft_put_best_place(int i, int j)
 	(void)j;
 }
 
-void	ft_init_debug(t_game game)
+void	ft_init_debug(t_game *game)
 {
 	(void)game;
 }

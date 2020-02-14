@@ -6,7 +6,7 @@
 /*   By: vdelsie <vdelsie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/01 14:12:06 by vdelsie           #+#    #+#             */
-/*   Updated: 2020/02/01 14:12:09 by vdelsie          ###   ########.fr       */
+/*   Updated: 2020/02/14 18:05:42 by vdelsie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ void		ft_delete_all(t_game *game)
 {
 	int		i;
 
+	if(game->piece)
 	ft_strdel(&game->piece);
 	ft_strdel(&game->gross_map);
 	i = 0;
@@ -26,7 +27,9 @@ void		ft_delete_all(t_game *game)
 		i++;
 	}
 	free(game->strat_map);
-	ft_bzero(game, sizeof(*game));
+	free(game);
+	game = NULL;
+	/*ft_bzero(game, sizeof(*game));*/
 }
 
 static void	ft_clear_strat_map(t_game *game)
