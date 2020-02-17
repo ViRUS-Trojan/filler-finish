@@ -73,6 +73,8 @@ void			ft_activate_border(t_game *game);
 void			ft_desactivate_border(t_game *game);
 int				init_start_middle_end(char *line, char **start, char **middle,
 																char **end);
+int             free_strsplit(char **split);
+int				check_huevaya_karta(char *line, t_game *game);
 
 /*
 ** Init

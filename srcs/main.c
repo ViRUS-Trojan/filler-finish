@@ -12,17 +12,57 @@
 
 #include "filler.h"
 
+int		free_strsplit(char **split)
+{
+	int i;
+
+	i = -1;
+	if (!split)
+		return (-1);
+	while (split[++i])
+	{
+		free(split[i]);
+		split[i] = NULL;
+	}
+	free(split);
+	return (-1);
+}
+
+int		check_huevaya_karta(char *line, t_game *game)
+{
+	char	**split;
+	int		i;
+	int		len;
+
+	i = -1;
+	if (ft_strequ(line, ""))
+		return (-1);
+	if (!(split = ft_strsplit(line, ' ')))
+		return (-1);
+	if (!split[1])
+		return (free_strsplit(split));
+	if ((int)ft_strlen(split[1]) != game->w_map)
+		return (free_strsplit(split));
+	len = ft_strlen(split[1]);
+	while (++i < len)
+	{
+		if (split[1][i] == '.' || split[1][i] == 'X' || split[1][i] == 'x'
+			|| split[1][i] == 'O' || split[1][i] == 'o')
+			continue;
+		else
+			return (free_strsplit(split));
+	}
+	free_strsplit(split);
+	return (0);
+}
+
 int		main(void)
 {
 	t_game	*game;
 	int		round;
 
-	game = ft_first_init();
-	if (!game)
-		ft_exit("НЕ ЛЕЗЬ ДЕБИЛ!", 3);//////ЧИТИНГ -42
-
-	/*if (ft_first_init(&game) == -1)
-		ft_exit("НЕ ЛЕЗЬ ДЕБИЛ!", 3);*/
+	if (!(game = ft_first_init()))
+		return (0);
 	round = 1;
 	while (1)
 	{

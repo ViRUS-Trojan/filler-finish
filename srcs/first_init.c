@@ -6,7 +6,7 @@
 /*   By: vdelsie <vdelsie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/07 16:57:55 by vdelsie           #+#    #+#             */
-/*   Updated: 2020/02/14 18:10:42 by vdelsie          ###   ########.fr       */
+/*   Updated: 2020/02/16 19:46:56 by vdelsie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,14 +76,20 @@ static void	ft_first_init_strat_map(t_game *game)
 
 t_game		*ft_first_init(void)
 {
-    t_game	*game;
+	t_game	*game;
+
 	if (!(game = ft_memalloc(sizeof(t_game))))
 		return (NULL);
-	//ft_bzero(game, sizeof(game));
 	if (ft_get_coin(game) == -1)
+	{
+		free(game);
 		return (NULL);
+	}
 	if (ft_get_map_size(game) == -1)
+	{
+		free(game);
 		return (NULL);
+	}
 	game->gross_map = ft_memalloc(sizeof(*game->gross_map) *
 				(game->h_map * game->w_map + game->h_map + 1));
 	ft_first_init_strat_map(game);
